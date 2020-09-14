@@ -80,10 +80,10 @@ public class BodyPartFragment extends Fragment {
                 public void onClick(View v) {
                     if (mListIndex < mImageIds.size() - 1){
                         mListIndex ++;
-                        imageView.setImageResource(mImageIds.get(mListIndex));
                     }else{
                         mListIndex =0;
                     }
+                    imageView.setImageResource(mImageIds.get(mListIndex));
                 }
             });
 
